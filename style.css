@@ -67,13 +67,13 @@
 	}
 
 	.crazy-guy {
-		background: url("images/crazyguy.gif");
+		background: url("images/crazyguy.gif") no-repeat;
 		background-position: bottom right;
 		height: 240px;
 	}
 
 	.html5-icon {
-		background: url(http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png);
+		background: url("http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png");
 		background-position: center;
 		max-width: 165px;
 		height: 64px;
@@ -81,7 +81,7 @@
 	}
 
 	.counter {
-		background: url(images/counter.gif);
+		background: url("images/counter.gif");
 		background-position: center;
 		max-width: 165px;
 		height: 20px;	
@@ -99,7 +99,7 @@
 		clear: both;
 		float: left;
 		display: inline-block;
-		content: url(images/arrow-right.gif);	
+		content: url("images/arrow-right.gif");	
 		margin-top: -7px;
 	}
 
