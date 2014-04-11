@@ -1,0 +1,143 @@
+/*General Styles*/
+	body {
+		font-family: "Comic Sans MS";	
+		margin: 0;
+		padding: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 0;
+		padding-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 7px solid #D1CFCB;
+		background: #AABBCC;
+	}
+
+/*Columns*/
+	main { width: 100%; }
+	.primary {
+		width: 79%;
+		float: left;
+		border-right: 7px solid #D1CFCB;
+		background: #AABBCC;
+	}
+	.secondary {
+		width: 20%;
+		float: right;
+		background: #fff;
+	}
+
+	.secondary > a {
+	  display: inline-block;
+	  text-align: center;
+	  width: 100%;
+	}
+
+/*Headers*/
+	h1 {
+		animation: blink 1s step-end infinite;
+	}
+	@keyframes blink {
+		0% { color: #000; }
+		50% { color: #fff; }
+	}
+	-webkit-@keyframes blink {
+		0% { color: #000; }
+		50% { color: #fff; }
+	}
+
+	h3 { text-decoration: underline; }
+
+/*Animated Gifs*/
+.animated-gif {
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;	
+		margin: 20px auto;	
+	}
+
+	.nerd-glass {
+		background: url("images/nerdglass.jpg");
+		background-position: center;
+		height: 240px;
+	}
+
+	.crazy-guy {
+		background: url("images/crazyguy.gif");
+		background-position: bottom right;
+		height: 240px;
+	}
+
+	.html5-icon {
+		background: url(http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png);
+		background-position: center;
+		max-width: 165px;
+		height: 64px;
+		display: table !important;
+	}
+
+	.counter {
+		background: url(images/counter.gif);
+		background-position: center;
+		max-width: 165px;
+		height: 20px;	
+		display: table !important;	
+	}	
+
+/*List*/
+	li {
+		list-style: none;
+		height: 40px;
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	li:before {
+		clear: both;
+		float: left;
+		display: inline-block;
+		content: url(images/arrow-right.gif);	
+		margin-top: -7px;
+	}
+
+/*Text Customizations*/
+	p { padding: 0 10px; }
+
+	.nerd {
+		background: #000;
+		color: #fff;
+	}
+
+/*Footer*/
+	footer {
+		display: inline-block;
+		width: 100%;
+		height: 100px;
+		background: url("images/flamingline.gif");
+	}
+
+/*Colors*/
+	.blue { color: #053190; text-shadow: 0 0 1px #000;}
+	.red { color: #DF0001; text-shadow: 0 0 1px #000;}
+	.yellow { color: #FEFF08; text-shadow: 0 0 1px #000; }
+
+/*helpers*/
+	.left { float: left; }
+	.right { float: right; }
+	.caps { text-transform: uppercase }
+	.bold { font-weight: 700; }
+	.center { text-align: center; }
+
+/*Media Queries*/
+	@media (min-width: 699px) {
+		.secondary { width: 20%; }
+	}
+	@media (max-width: 699px) {
+		.secondary { width: 19%; }
+	}
+	@media (max-width: 349px) {
+		.secondary { width: 18%; }
+	}
