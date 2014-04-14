@@ -44,10 +44,10 @@
 		0% { color: #000; }
 		50% { color: #fff; }
 	}
-	-webkit-@keyframes blink {
+	/*-webkit-@keyframes blink {
 		0% { color: #000; }
 		50% { color: #fff; }
-	}
+	}*/
 
 	h3 { text-decoration: underline; }
 
