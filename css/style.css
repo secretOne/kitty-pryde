@@ -138,3 +138,15 @@
 	@media (max-width: 349px) {
 		.secondary { width: 18%; }
 	}
+
+/*Webkit Hacks*/
+
+ /*Headers*/
+	h1 {
+		animation: blink 1s step-end infinite;
+		-webkit-animation: blink 1s step-end infinite;
+	}
+	@-webkit-keyframes blink {
+		0% { color: #000; }
+		50% { color: #fff; }
+	}
