@@ -40,18 +40,11 @@
 /*Headers*/
 	h1 {
 		animation: blink 1s step-end infinite;
-		-webkit-animation: blink 1s step-end infinite;
 	}
 	@keyframes blink {
 		0% { color: #000; }
 		50% { color: #fff; }
 	}
-
-	@-webkit-keyframes blink {
-		0% { color: #000; }
-		50% { color: #fff; }
-	}
-
 
 	h3 { text-decoration: underline; }
 
@@ -144,4 +137,4 @@
 	}
 	@media (max-width: 349px) {
 		.secondary { width: 18%; }
-	}	
+	}
